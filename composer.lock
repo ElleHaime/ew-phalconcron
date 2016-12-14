@@ -1,0 +1,140 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5e6fa4bcd430cb642ec66b83e2c4cf65",
+    "packages": [
+        {
+            "name": "tieste/cron-expression",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "http://bitbucket.org/tieste/cronexpression.git",
+                "reference": "eceb8f1da8f1605ad2a1b9efc73dfa1d111d9778"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/tieste/cronexpression/get/eceb8f1da8f1605ad2a1b9efc73dfa1d111d9778.zip",
+                "reference": "eceb8f1da8f1605ad2a1b9efc73dfa1d111d9778",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cron": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Artem Onyshchenko",
+                    "email": "temafey@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "homepage": "https://bitbucket.org/tieste/phalconcore.git",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "time": "2015-12-17 18:41:12"
+        },
+        {
+            "name": "videlalvaro/php-amqplib",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/videlalvaro/php-amqplib.git",
+                "reference": "adc2a425ab214517a5e76557a9370bdc6f212576"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/videlalvaro/php-amqplib/zipball/adc2a425ab214517a5e76557a9370bdc6f212576",
+                "reference": "adc2a425ab214517a5e76557a9370bdc6f212576",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PhpAmqpLib": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Alvaro Videla"
+                }
+            ],
+            "description": "This library is a pure PHP implementation of the AMQP protocol. It's been tested against RabbitMQ.",
+            "homepage": "https://github.com/videlalvaro/php-amqplib/",
+            "keywords": [
+                "message",
+                "queue",
+                "rabbitmq"
+            ],
+            "time": "2013-06-17 19:25:27"
+        },
+        {
+            "name": "videlalvaro/thumper",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/videlalvaro/Thumper.git",
+                "reference": "d2fab301d8ae683854462351bcb9388bbca538c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/videlalvaro/Thumper/zipball/d2fab301d8ae683854462351bcb9388bbca538c4",
+                "reference": "d2fab301d8ae683854462351bcb9388bbca538c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "videlalvaro/php-amqplib": "~2.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Thumper": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "AMQP Tools",
+            "homepage": "https://github.com/videlalvaro/Thumper",
+            "keywords": [
+                "AMQP",
+                "PHPAMQPLib",
+                "Thumper",
+                "library",
+                "rabbitmq"
+            ],
+            "time": "2013-09-29 15:48:28"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.0",
+        "ext-phalcon": ">=2.0.7"
+    },
+    "platform-dev": []
+}
